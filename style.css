@@ -15,3 +15,8 @@ body {
 html {
     height: -webkit-fill-available;
 }
+
+.img-logo{
+    width: 32px;
+    margin-right: 10px;
+}
