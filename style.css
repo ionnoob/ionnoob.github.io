@@ -20,3 +20,13 @@ html {
     width: 32px;
     margin-right: 10px;
 }
+h1 {
+    display: block;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.main-content {
+    width: 100%;
+}
