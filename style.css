@@ -29,4 +29,25 @@ h1 {
 }
 .main-content {
     width: 100%;
+    overflow-x: auto;
+}
+.img-planning {
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.soutitre-pmsj{
+    text-align: center;
+    font-size: 24px;
+}
+.col p {
+    text-align: center;
+}
+.col{
+    margin-top: 30px;
+}
+.img-icon{
+    width: 70px;
+    margin-top: 40px;
 }
