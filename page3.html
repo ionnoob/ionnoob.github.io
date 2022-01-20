@@ -14,7 +14,7 @@
   </head>
   <body>
     <main>
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+    <div id="desktop-nav" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
         <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
           <img class="img-logo" src="logo.svg" alt="logo">
           <span class="fs-4">Stage</span>
@@ -47,6 +47,35 @@
           </li>
         </ul>
       </div>
+      <div id="mobile-nav" >
+        <div class="collapse" id="navbarToggleExternalContent">
+         <div class="bg-dark p-4">
+           <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+             <img class="img-logo" src="logo.svg" alt="logo">
+             <span class="fs-4">Stage</span>
+           </a>
+           <hr>
+           <a href="index.html" class="nav-link text-white" aria-current="page">
+           </a>
+           <a href="page1.html" class="nav-link text-white">
+             Ce que j'ai fait
+           </a>
+           <a href="page2.html" class="nav-link text-white">
+             Qui est TCM
+           </a>
+           <a href="page3.html" class="nav-link active">
+             Qui est Alpiq
+           </a>
+         </div>
+       </div>
+       <nav class="navbar navbar-dark bg-dark">
+         <div class="container-fluid">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         </div>
+       </nav>
+     </div>
       <div class="main-content">
         <h1>Qui est Alpiq</h1>
     </div>
