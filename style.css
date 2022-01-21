@@ -126,6 +126,13 @@ h1 {
 .icon-accueil{
     max-height: 450px;
 }
+.img-pg3{
+    max-height: 500px;
+}
+.image-pg3{
+    max-height: 500px;
+    object-fit: cover;
+}
 @media screen and (max-width: 1080px) {
     .titre{
         min-width: initial;
