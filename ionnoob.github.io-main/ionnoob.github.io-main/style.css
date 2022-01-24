@@ -1,0 +1,165 @@
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+
+html {
+    height: -webkit-fill-available;
+}
+
+.img-logo{
+    width: 32px;
+    margin-right: 10px;
+}
+h1 {
+    display: block;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.main-content {
+    width: 100%;
+    overflow-x: auto;
+    padding: 30px 30px 0px 30px;
+}
+.img-planning {
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.soutitre-pmsj{
+    text-align: center;
+    font-size: 24px;
+}
+.col p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.col{
+    margin-top: 30px;
+}
+.img-icon{
+    width: 70px;
+    margin-top: 40px;
+}
+.col .icol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.col .col-text{
+    font-weight: normal;
+}
+.img-script{
+    max-height: 370px;
+    object-fit: cover;
+}
+.card-body{
+    margin-bottom: 10px;
+}
+.collumn{
+    margin-top: 30px;
+    max-width: 50%;
+}
+.collumn .col-text{
+    font-weight: normal;
+}
+.collumn p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card.shadow-sm{
+    height: 100%;
+}
+.copyright{
+    margin-top: 30px;
+}
+.backround{
+    background-image: url("bureau.jpg");
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+   }
+.titre{
+    background-color: rgba(255,255,255,0.8);
+    max-width: 950px;
+    text-align: center;
+    padding: 25px;
+    min-width: 800px;
+}
+
+.cover-container{
+    justify-content: center;
+    align-items: center;
+}
+#mobile-nav {
+    display: none;
+} 
+.main-content-container {
+    width: 100%;
+    overflow-x: auto;
+}
+.logo-school{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.logo-school img {
+    max-height: 100px;
+    object-fit: cover;
+}
+.icon-accueil{
+    max-height: 450px;
+}
+.img-pg3{
+    max-height: 500px;
+}
+.image-pg3{
+    max-height: 500px;
+    object-fit: cover;
+}
+@media screen and (max-width: 1080px) {
+    .titre{
+        min-width: initial;
+    }
+}
+@media screen and (max-width: 960px) {
+    #desktop-nav {
+        display: none !important;
+    }
+    #mobile-nav {
+        display: inline;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .backround {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .row{
+      display: initial;
+    }
+    .collumn{
+        max-width: initial;
+    }
+}
+ 
